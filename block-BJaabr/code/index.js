@@ -64,15 +64,15 @@ let addOne = (a) => {
 
 // - Execute the function
 
-addOne(26);
+addOne();
 
 // - Execute the function and store the return value in a variable.
 
-let result = addOne(27);
+let result = addOne();
 
 // - What is the typeof returnValue
 
-// The type of 'result' is number.
+// The type of 'result' is "number".
 
 //
 
@@ -115,7 +115,7 @@ let finalResult = substractOne(20);
 
 // - What is the typeof returnValue
 
-// The typeof finalResult is number.
+// The typeof finalResult is "number".
 
 /* 3. Add two numbers
 
@@ -188,15 +188,15 @@ let square = (n) => {
 
 // - Execute the function
 
-square = (25);
+square = ();
 
 // - Execute the function and store the return value in a variable
 
-let returnValue = square(26);
+let returnValue = square();
 
 // - What is the typeof returnValue
 
-// The type of 'returnValue' is number.
+// The type of 'returnValue' is "number".
 
 /* 5. Find isGreater
 
