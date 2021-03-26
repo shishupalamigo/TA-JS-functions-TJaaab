@@ -20,8 +20,8 @@ function calculateDogAge(age, conversionRate = 7) {
 */
 
 function calculateMoviesToWatch(age, numberOfMoviesPerWeek) {
-  let MaxAge = 70;
-  let moviesCanBeWached = ((MaxAge -age) * 12) * (numberOfMoviesPerWeek * 4);
+  const MAX_AGE = 80;
+  let moviesCanBeWached = ((MAX_AGE -age) * 12) * (numberOfMoviesPerWeek * 4);
   return `You can watch a maximum of ${moviesCanBeWached} movies for rest of your life `; 
 }
 
@@ -83,7 +83,7 @@ function sumOrProductOfN(n, operation) {
       product *= i; 
     } return product;
   } else {
-    return `Not a valid Input`;
+    alert(`Not a valid Input`);
   }
 }
 
@@ -136,6 +136,6 @@ min(0, -10);
 9. 🎖Write a JavaScript function which accepts an argument and returns the type of the value.
 */
 
-function typeCheck(argument) {
-  return typeof argument;
+function typeCheck(val) {
+  return typeof val;
 }
