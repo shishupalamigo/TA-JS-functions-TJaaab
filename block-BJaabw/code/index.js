@@ -26,13 +26,11 @@ isInRange(1, 10, 19); // false
 */
 
 // - Write a Function Decleration for above problem
-function isInRange(lowerLimit, upperLimit,  num) {
-  if (upperLimit > num && lowerLimit < num) {
-    return true;
-  } else {
-    return false;
-  }
+
+function isInRange(lowerLimit, Upperlimit, num) {
+  return num > lowerLimit && num < Upperlimit;
 }
+
 // - Execute the function with required parameter
 isInRange(25, 50, 35);
 /* 2. calculateBMI
